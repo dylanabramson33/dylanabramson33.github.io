@@ -1,0 +1,65 @@
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+
+
+}
+body{
+    background-color: white;
+}
+#home {
+  background-color: transparent;
+  width: 100%;
+  height: 40%;
+
+}
+
+nav{
+  background-color: white;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  font-family: 'Muli', sans-serif;
+  float: right;
+}
+
+
+#navbarLinks{
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+
+
+#topText{
+  padding-top: 60px;
+  font-family: 'Lobster', cursive;
+  font-size: 60px;
+  font-style: bold;
+
+
+}
+
+
+
+#bottomText{
+
+  color: black;
+
+}
+
+
+
+
+#interiorBox {
+  position: relative;
+  text-align: center;
+  z-index: 5;
+  width: 100%;
+  padding-left: 200px;
+  padding-right: 200px;
+  background-color: transparent;
+
+}
