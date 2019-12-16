@@ -1,0 +1,267 @@
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+
+
+}
+body{
+    background-color: white;
+}
+
+#home {
+  background-color: transparent;
+  width: 100%;
+  height: 40%;
+
+}
+
+nav{
+  background-color: white;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  font-family: 'Muli', sans-serif;
+  float: right;
+}
+
+
+#navbarLinks{
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+
+
+#topText{
+  padding-top: 60px;
+  font-family: 'Lobster', cursive;
+  font-size: 60px;
+  font-style: bold;
+
+
+}
+
+
+
+
+#imageBox {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  margin-left: -190px;
+
+}
+
+
+
+#interiorBox {
+  position: relative;
+  text-align: center;
+  z-index: 5;
+  width: 100%;
+  background-color: transparent;
+
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+
+}
+
+.button {
+   background: white;
+   z-index: 10;
+   border: 1.5px solid black;
+   border-radius: 5px;
+   width:100px;
+   height:50px;
+   -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  color : rgba(0,0,0,1);
+}
+.button:hover{
+  background-color: #05386B ;
+
+}
+
+
+
+
+#button {
+  margin-top: 40px;
+  padding-bottom: 60px;
+
+}
+
+
+.navbar-fixed-top {
+  margin-top: 0px;
+  font-family: 'Muli', sans-serif;
+  font-style: bold;
+  text-decoration: none;
+  color: black;
+  padding-right: 50px;
+  background-color: white;
+}
+
+.navbar-collapse.collapse {
+  display: block!important;
+}
+
+.navbar-nav>li, .navbar-nav {
+  float: left !important;
+}
+
+.navbar-nav.navbar-right:last-child {
+  margin-right: -15px !important;
+}
+
+.navbar-right {
+  float: right!important;
+}
+
+.nav-item{
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
+
+
+
+#portfolio{
+  margin-top: -20px;
+  display: block;
+  color: black;
+  width: 100%;
+  text-align: center;
+  background-color: transparent;
+  padding-bottom: 50px;
+  font-family: 'Muli', sans-serif;
+
+}
+
+
+#portfolioHeader{
+  padding-top: 50px;
+  text-align: center;
+}
+
+
+#aboutContainer{
+  width: 100%;
+}
+
+#about {
+  font-family: 'Muli', sans-serif;
+  margin-top: -25px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #transparent;
+  color: black;
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+  z-index: 1;
+}
+footer{
+  text-align: center;
+  text-decoration: none;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  border-radius: 50%;
+  color: gray;
+}
+
+.fa:hover {
+  text-decoration: none;
+
+}
+
+
+.portfolioBox{
+  position: relative;
+
+  margin-left: 40px;
+  display: inline-block;
+  z-index: 5;
+  margin-top: 50px;
+  width: 250px;
+  height: 250px;
+  border-radius: 5px;
+
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  transition: all 0.3s ease-in-out;
+}
+#box1{
+  background-image: url(../Evo.Png);
+  background-size: cover;
+}
+#box2{
+  background-image: url(../EdMapps.Png);
+  background-size: cover;
+  background-position: center;
+}
+
+.portfolioBox::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  margin-left: -125px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transition: opacity 0.3s ease-in-out;
+}
+
+.portfolioBox:hover {
+  transform: scale(1.1, 1.1);
+}
+
+/* Fade in the pseudo-element with the bigger shadow */
+.portfolioBox:hover::after {
+  opacity: 1;
+}
+.boxText{
+  position: absolute;
+  z-index: 0;
+  margin-top: 210px;
+  text-align: center;
+  width: 100%;
+  height: 40px;
+  background-color: black;
+  font-family: 'Muli', sans-serif;
+  padding-top: 5px;
+  border-radius: 5px;
+  color: white;
+}
+
+
+
+.nav >li>a:focus, .nav >li>a:hover {
+  background-color: transparent;
+}
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
