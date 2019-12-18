@@ -45,11 +45,10 @@ nav{
 
 
 #interiorBox {
-  position: relative;
-  text-align: center;
-  z-index: 5;
-  padding-left: 10px;
-  padding-right: 10px;
-  background-color: transparent;
-
+    position: relative;
+    text-align: center;
+    z-index: 5;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: transparent;
 }
